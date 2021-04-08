@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### run the tests
 
-* good to know, the database will be automatically reset each time you run the tests *
+*good to know, the database will be automatically reset each time you run the tests*
 
 ```sh
 pytest -v tests --base-url INSTANCE_URL
