@@ -26,5 +26,5 @@ pip install -r requirements.txt
 *good to know, the database will be automatically reset each time you run the tests*
 
 ```sh
-pytest -v tests --base-url INSTANCE_URL
+pytest -v tests --base-url INSTANCE_URL --driver Chrome --sensitive-url dataiku.com
 ````
